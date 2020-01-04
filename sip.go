@@ -81,11 +81,6 @@ func getAGame() (game, int) {
 	return chosenGame, diceRole
 }
 
-func rollDice() int {
-	rollResult := rand.Intn(6)
-	return rollResult
-}
-
 func main() {
 	r := gin.Default()
 
