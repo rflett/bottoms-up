@@ -32,8 +32,7 @@ func getAllGames() []game {
 		{"RHYME", medProbability, "Rhyme", "Make a rhyme, can't repeat, first to stumble, suck the teat"},
 		{"CATEGORIES", medProbability, "Categories", "Start off with a category, say something that doesn't match and drink"},
 		{"LAVA", lowProbability, "Lava", "THE DECK IS LAVA!"},
-		{"POOL", lowProbability, "Pool", "LAST IN IN THE POOL DRINKS"},
-		{"NORTO", lowProbability, "Nortoooo", "Norto, take a drink"},
+		{"NORTO", medProbability, "Nortoooo", "Norto, take a drink"},
 		{"SEVENS", lowProbability, "Sevens", "Pick a number, each person subtracts 7, first to fuck up drinks"},
 		{"WATERFALL", lowProbability, "Waterfall", "Drink for as long as the person to your right is drinking"},
 	}
